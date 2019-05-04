@@ -12,6 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="samplemuleprojectFlow" doc:id="c56bb643-b808-4216-b92c-d07604b025fc" >
 		<http:listener doc:name="Listener" doc:id="8a795aa4-4e0f-4299-8904-f035723b2738" config-ref="HTTP_Listener_config1" path="/sampleRequest"/>
-		<set-payload value="getting message from mule application" doc:name="Set Payload" doc:id="293883c0-327b-4a81-bd2b-6297adff54bc" />
+		<set-payload value="getting message from mule application from request" doc:name="Set Payload" doc:id="293883c0-327b-4a81-bd2b-6297adff54bc" />
 	</flow>
 </mule>
